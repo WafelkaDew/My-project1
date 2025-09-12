@@ -1,0 +1,7 @@
+.contacts {
+    flex-direction: column;
+}
+.contact-info, .about {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
