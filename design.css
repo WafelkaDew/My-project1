@@ -5,3 +5,9 @@
     margin-right: 0;
     margin-bottom: 20px;
 }
+
+.round-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
