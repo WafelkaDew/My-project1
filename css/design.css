@@ -1,17 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 * {
     margin: 0;
     padding: 0;
-}
-
-.body {
-    font-family:"Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1 {
@@ -82,13 +72,13 @@
 }
 
 .table__hobbies {
-    border: 1px solid #800000;
+    border: 1px solid #085d8f;
     border-radius: 10px 0 0 10px;
 }
 
 .table__hobbies-tittle,
 .table__social-tittle {
-    border-bottom: 1px solid #800000;
+    border-bottom: 1px solid #085d8f;
     text-align: center;
     color: #696969;
     padding: 5px 0;
@@ -96,7 +86,7 @@
 }
 
 .table__social {
-    border: 1px solid #800000;
+    border: 1px solid #085d8f;
     border-radius: 0 10px 10px 0;
 }
 
@@ -127,7 +117,7 @@
 }
 
 .tittle {
-    background: #800000;
+    background: #0c72ad;
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -150,7 +140,7 @@
 .games__item:hover {
     box-shadow: 0 4px 20px 0 #c1c1c1;
     cursor: pointer;
-    background: #c1c1c1;
+    background: #7b8fe7;
 }
 
 .text {
@@ -159,36 +149,31 @@
     justify-content: space-between;
 }
 
-.forma {
+.send {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 
-.forma__text {
+.send__text {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
     padding: 5px 10px;
 }
 
-.name {
-    color: #696969;
-    border-radius: 10px;
-    text-align:center;
-    font-weight: bold;
-}
-
-.forma__input {
+.send__input {
     padding: 5px 10px;
 }
 
-.forma__button {
+.send__button {
     color: #ffffff;
     background: #0603a1;
     border: 2px solid #065ad8;
-    padding: 10px 200px;
+    padding: 10px 100px;
     border-radius: 20px;
+    grid-column: 2;
 }
 
 .game__info {
