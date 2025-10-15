@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+.body {
+    font-family:"Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 .h1 {
@@ -38,6 +49,7 @@
 
 .games {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     margin-top: 20px;
     color: #800000;
@@ -128,7 +140,7 @@
     display:flex;
     border-radius: 20%;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
     padding: 20px;
     border-radius: 10px;
@@ -160,13 +172,6 @@
     padding: 5px 10px;
 }
 
-forma__button {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width: fit-content;
-    margin: 0 auto;
-}
-
 .name {
     color: #696969;
     border-radius: 10px;
@@ -180,8 +185,13 @@ forma__button {
 
 .forma__button {
     color: #ffffff;
-    background: #800000;
-    border: 2px solid #800000;
-    padding: 5px 10px;
+    background: #0603a1;
+    border: 2px solid #065ad8;
+    padding: 10px 200px;
     border-radius: 20px;
+}
+
+.game__info {
+    display: flex;
+    flex: 1;
 }
